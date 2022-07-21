@@ -16,7 +16,7 @@ find Simple Interest.
 8. To find out whether the given String is Palindrome or not.
 9. To find Armstrong Number between two given number.*/
 
-/* // 1.Write a program to print whether a number is even or odd, also take
+// 1.Write a program to print whether a number is even or odd, also take
 input from the user.
 import java.util.Scanner;
 public class firstjavasol {
@@ -32,9 +32,9 @@ public class firstjavasol {
         }
     }
 }
-*/
 
-/*//2. Take name as input and print a greeting message for that particular name.
+
+//2. Take name as input and print a greeting message for that particular name.
 import java.util.Scanner;
 public class firstjavasol{
     public static void main(String[] args) {
@@ -44,10 +44,9 @@ public class firstjavasol{
     System.out.println("Greetings "+name);
     }
 }
-*/
 
-/*// 3. Write a program to input principal, time, and rate (P, T, R) from the user and
-find Simple Interest.
+
+// 3. Write a program to input principal, time, and rate (P, T, R) from the user andfind Simple Interest.
 public class firstjavasol {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
@@ -60,9 +59,8 @@ public class firstjavasol {
     }
     
 }
-*/
 
-/* //4. Take in two numbers and an operator (+, -, *, /) and calculate the value.(Use if conditions)
+//4. Take in two numbers and an operator (+, -, *, /) and calculate the value.(Use if conditions)
 
 public class firstjavasol {
 
@@ -92,8 +90,9 @@ public class firstjavasol {
     
     }
 }
-*/
-/* //5. Take 2 numbers as input and print the largest number.
+
+
+//5. Take 2 numbers as input and print the largest number.
 public class firstjavasol {
 
     public static void main(String[] args) {
@@ -113,9 +112,8 @@ public class firstjavasol {
         }
     }
 }
-*/
 
-/* //6. Input currency in rupees and output in USD.
+//6. Input currency in rupees and output in USD.
 
 public class firstjavasol {   
     public static void main(String[] args) {
@@ -125,8 +123,8 @@ public class firstjavasol {
         System.out.println(rup*0.013);
     }
 }
-*/
-/* //7. To calculate Fibonacci Series up to n numbers.
+
+//7. To calculate Fibonacci Series up to n numbers.
 public class firstjavasol{
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
@@ -143,9 +141,8 @@ public class firstjavasol{
         
     }
 }
-*/
 
-/* //8. To find out whether the given String is Palindrome or not.
+//8. To find out whether the given String is Palindrome or not.
 public class firstjavasol {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
@@ -164,8 +161,9 @@ public class firstjavasol {
        }
     }
 }
-*/
-/* // 9. To find Armstrong Number between two given number.
+
+
+// 9. To find Armstrong Number between two given number.
 public class firstjavasol {
 
     public static void main(String[] args) {
@@ -195,4 +193,3 @@ public class firstjavasol {
         }
     }
 }
-*/

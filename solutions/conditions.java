@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 //[Subtract the Product and Sum of Digits of an Integer]
-/* 
+ 
 public class conditions {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
@@ -17,15 +17,13 @@ public class conditions {
             n=n/10;
         }
         System.out.println( "sum=" +sum +"\n"+"product= "+product);
-      
-    }
+     }
 }
-*/
 
-/* 
+
+
 //Input a number and print all the factors of that number (use loops).
 public class conditions {
-
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         System.out.println("enter number");
@@ -33,17 +31,15 @@ public class conditions {
         for(int i=1;i<n;i++){
             if(n%i==0){
                 System.out.println(i+" ");
-                
-
-            }
-                  
+                }             
      }
+  }
 }
-}
-*/
+
+
 
 //Take integer inputs till the user enters 0 and print the sum of all numbers(HINT: while loop)
-/*
+
 public class conditions {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
@@ -52,15 +48,14 @@ public class conditions {
         int n;
         while((n=input.nextInt())!=0){
             sum+=n;
-
         }
         System.out.println(sum);
     }
 }
-*/
+
 
 //Take integer inputs till the user enters 0 and print the largest number from all.
-/* 
+
 public class conditions {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
@@ -71,14 +66,11 @@ public class conditions {
             if(sum<n){
                 sum=n;
             }
-
         }
         System.out.println(sum);
     }
 }
-*/
 
-/*
 //1. Factorial Program In Java [5!=1*2*3*4*5]
 public class conditions {
     public static void main(String[] args) {
@@ -94,11 +86,11 @@ public class conditions {
             System.out.println(pro);
         }
 }
-*/
+
 
 //7. Power In Java
 /***power in java takes double value has input-> Math.pow(base,exponent) */
-/* 
+
 import java.lang.Math;
 public class conditions {
     public static void main(String[] args) {
@@ -109,10 +101,10 @@ public class conditions {
         System.out.println((int)Math.pow(a,b));
     }
 }
-*/
+
 //Write a program to print the sum of negative numbers, sum of positive even numbers and the sum of positive 
 //odd numbers from a list of numbers (N) entered by the user. The list terminates when the user enters a zero.
-/*public class conditions {
+public class conditions {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         System.out.println("enter number");
@@ -134,5 +126,4 @@ public class conditions {
         }
           System.out.println(neg+" "+pos+" "+pos_even+" "+pos_odd);
     }
-    }
-*/
+}

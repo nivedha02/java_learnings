@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 /* 
-//[Define two methods to print the maximum and the minimum number respectively among three numbers entered by the user.]
-//(https://www.java67.com/2019/05/how-to-find-largest-and-smallest-of-three-numbers-in-java.html)
+[Define two methods to print the maximum and the minimum number respectively among three numbers entered by the user.]
+(https://www.java67.com/2019/05/how-to-find-largest-and-smallest-of-three-numbers-in-java.html)*/
 
 public class methods {
     public static void main(String[] args) {
@@ -44,7 +44,7 @@ public class methods {
             }
             
     }
-*/
+
 
 
 /****
@@ -61,7 +61,8 @@ Marks        Grade
 41-50          DD 
 <=40          Fail 
 </pre> **/
-/* 
+
+
 public class methods {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
@@ -80,7 +81,6 @@ public class methods {
         
     }
 
-    
     static void grade(float number){
         switch((int)number/10){
             case 9:
@@ -106,7 +106,5 @@ public class methods {
               break;
         }
     }
-  
 }
     
-*/

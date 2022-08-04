@@ -12,7 +12,7 @@ ans = [nums[nums[0]], nums[nums[1]], nums[nums[2]], nums[nums[3]], nums[nums[4]]
     = [0,1,2,4,5,3]
 */
 
-/* 
+
 public class arrays {
     public static void main(String[] args) {
         int[] nums={0,2,1,5,3,4};
@@ -23,7 +23,6 @@ public class arrays {
         System.out.println(Arrays.toString(ans));
     } 
 } 
-*/
 
 //2.[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)
 /***
@@ -34,7 +33,7 @@ ans = [nums[0],nums[1],nums[2],nums[0],nums[1],nums[2]]
 ans = [1,2,1,1,2,1]
 */
 
-/*
+
 public class arrays {
     public static void main(String[] args) {
         int[] arr={1,2,1};
@@ -46,7 +45,7 @@ public class arrays {
         }   
     }
 }
-*/
+
 
 //3.[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)
 /*
@@ -54,7 +53,7 @@ Input: nums = [1,2,3,4]
 Output: [1,3,6,10]
 Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4]. 
 */
-/* 
+
 public class arrays {
     public static void main(String[] args) {
         int[] ques={1,2,3,4};
@@ -67,7 +66,7 @@ public class arrays {
         System.out.println(Arrays.toString(ans));
     }
 }
-*/
+
 
 //4.[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
 /*
@@ -79,7 +78,7 @@ Explanation:
 3rd customer has wealth = 8
 The 2nd customer is the richest with a wealth of 10.
  */
-/* 
+
 public class arrays {
     public static void main(String[] args) {
         int[][] num={{1,5},{7,3},{3,5}};
@@ -99,7 +98,7 @@ public class arrays {
         System.out.println(high);
     }
 }
-*/
+
 
 //5.[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)
 /*
@@ -108,7 +107,7 @@ Output: [2,3,5,4,1,7]
 Explanation: Since x1=2, x2=5, x3=1, y1=3, y2=4, y3=7 then the answer is [2,3,5,4,1,7].
 */
 
-/*
+
 public class arrays {
     public static void main(String[] args) {
         int[] arr={2,5,1,3,4,7};
@@ -122,7 +121,7 @@ public class arrays {
         System.out.println(Arrays.toString(ans));
     } 
 }
-*/
+
 
 
 //6. [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)
@@ -135,7 +134,7 @@ Explanation: If you give all extraCandies to:
 - Kid 4, they will have 1 + 3 = 4 candies, which is not the greatest among the kids.
 - Kid 5, they will have 3 + 3 = 6 candies, which is the greatest among the kids. */
 //Algo:find the largest number of the give array then compare.
-/* 
+
 public class arrays {
     public static void main(String[] args) {
         int[] num={2,3,5,1,3};
@@ -160,7 +159,7 @@ public class arrays {
     }
     System.out.println(Arrays.toString(ans));
   }
-}*/
+}
 
 //7. [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)
 /*Given an array of integers nums, return the number of good pairs.
@@ -169,7 +168,7 @@ Input: nums = [1,2,3,1,1,3]
 Output: 4
 Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.
  */
-/* 
+
 public class arrays{
     public static void main(String[] args) {
         int[] arr={1,2,3,1,1,3};
@@ -188,7 +187,7 @@ public class arrays{
         System.out.println("output:"+count);
     }
 }
-*/
+
 //9. [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)
 /* 
 Input: nums = [0,1,2,3,4], index = [0,1,2,2,1]
